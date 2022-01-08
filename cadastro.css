@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    color:#4d32ff;
+    font-family: lucida;
+    margin-left: 7%;
+}
+
+#subtitula{
+    color:#4d32ff;
+    font-family: lucida;
+    margin-left: 10%;
+    justify-content: center;
+}
+
+ body{
+     font-size: 15px;
+     font-family: lucida;
+     color: #4d32ff;
+     margin-left: 40%;
+     margin-top: 5%;
+     justify-content: center;
+     background-color: #f5f5f5;
+ }
+
+ input, button{
+     font-family: lucida;
+     font-size: 15px;
+     color: #4d32ff;
+     border-radius: 5px;
+ }
+
+ fieldset{
+     border: 0;
+ }
+
+ .principal:after, .principal:before{
+     display: table;
+ }
+
+ .principal{
+     clear:both
+ }
+
+ .secundaria{
+     margin-bottom: 1em;
+ }
+
+ .secundaria label{
+     margin-bottom: 0.2em;
+     display:block;
+     color: #4d32ff
+ }
+
+ .fieldset.principal{
+     float: left;
+     margin-right: 1em;
+ }
+
+ .fieldset.secundaria{
+     float: right;
+     margin-left: 1em;
+ }
+
+ .principal input[type="text"], input[type="date"]{
+     padding: 0.2em;
+     border: 1px solid gray;
+     display: block;
+     box-shadow: 2px 2px 2px gray;
+ }
+
+.principal input:focus{
+    background: #e0ffff
+}
+
+.botao{
+    top: 83%;
+    left: 47%;
+    margin-bottom: 1em;
+    border: 0;
+    padding: 0.2em;
+    color: #4c008269;
+    font-size: 1em;
+    position: absolute;
+}

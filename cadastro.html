@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"
+    href="cadastro.css">
+    <title>cadastro</title>
+</head>
+
+<body>
+    
+    <form>
+
+        <div>
+            <h1 id="titulo"><strong>Certidão do seu Pet</strong></h1>
+            <h3 id="subtitulo"><strong>Preencha os campos a seguir para realizar o cadastro</strong></h3>
+            <br>
+            <br>
+        </div>
+
+        <fieldset class="principal">
+            <label for="name"><strong>Nome do Pet</strong></label>
+            <input type="text" name="nome" id="nome" required>
+            <br>
+        </fieldset>
+
+        <fieldset class="principal">
+            <div class="secundaria">
+                <label><strong>Resgistro animal (RA)</strong></label>
+                <input type="text" name="registro" id="registro" required>
+            </div>
+            <div class="secundaria">
+                <label><strong>Raça</strong></label>
+                <input type="text" name="raca" id="raca" required>
+            </div>
+            <div class="secundaria">
+                <label><strong>Gênero</strong></label>
+                <label>
+                    <input type="radio" name="genero" id="masculino" value="masculino"> Masculino
+                </label>   
+                <label>
+                    <input type="radio" name="genero" id="feminino" value="feminino"> Feminino
+                </label>
+            </div>
+            <div class="secundaria">
+                <label><strong>Castrado</strong></label>
+                <label>
+                    <input type="radio" name="castrado" id="sim" value="sim"> Sim
+                </label>
+                <label>
+                    <input type="radio" name="castrado" id="nao" value="nao"> Não
+                </label>
+            </div>
+            <div class="secundaria">
+                <label><strong>Data de nascimento</strong></label>
+                <input type="date" name="data" id="data" required>
+            </div>
+            <div class="secundaria">
+                <label><strong>Cor</strong></label>
+                <input type="text" name="cor" id="cor">
+            </div>
+            <div class="secundaria">
+                <label><strong>Nome do pai</strong></label>
+                <input type="text" name="pai" id="pai">
+            </div>
+            <div class="secundaria">
+                <label><strong>Nome da mãe</strong>
+                </label><input type="text" name="mae" id="mae">
+            </div>
+        </fieldset>
+
+        <div class="botao">
+            <button type="submit"><strong>Finalizar cadastro</strong></button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
